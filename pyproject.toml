@@ -1,10 +1,13 @@
 [project]
 name = "funllmchat"
-version = "0.0.1"
-description = ""
+version = "0.0.2"
+description = "funllmchat"
 readme = "README.md"
 requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
 dependencies = []
+
 [[project.authors]]
 name = "牛哥"
 email = "niuliangtao@qq.com"
@@ -25,9 +28,9 @@ email = "farfarfun@qq.com"
 Organization = "https://github.com/farfarfun"
 Repository = "https://github.com/farfarfun/funllmchat"
 Releases = "https://github.com/farfarfun/funllmchat/releases"
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
-[dependency-groups]
-dev = [ "funbuild>=1.6.66",]
-
-[tool.setuptools]
-license-files = []
+[tool.hatch.build.targets.wheel]
+packages = ["funllmchat"]

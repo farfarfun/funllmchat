@@ -1,0 +1,4 @@
+2026-08-31 18:59:09.732 |INFO    | funbuild.core.base : base: 187 | funbuild | - funllmchat build
+2026-08-31 18:59:09.732 |INFO    | funbuild.core.base : base: 128 | funbuild | - funllmchat pull
+2026-08-31 18:59:10.209 |INFO    | funbuild.core.uv_build : uv_build: 204 | funbuild | - public server: pypi
+2026-08-31 18:59:12.687 |INFO    | funbuild.core.base : base: 161 | funbuild | - funllmchat push
