@@ -8,6 +8,16 @@
 pip install funllmchat
 ```
 
+## 验证安装
+
+包目前只导出版本号，用于确认安装成功：
+
+```python
+import funllmchat
+
+print(funllmchat.__version__)
+```
+
 ---
 
 ## 关于 farfarfun
