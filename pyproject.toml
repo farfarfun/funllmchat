@@ -1,7 +1,7 @@
 [project]
 name = "funllmchat"
 version = "0.0.2"
-description = "funllmchat"
+description = "用于在 PyPI 保留 funllmchat 包名的占位 Python 包。"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
@@ -9,7 +9,7 @@ license-files = ["LICENSE"]
 dependencies = []
 
 [dependency-groups]
-dev = ["pytest>=8.0"]
+dev = ["funbuild>=1.6.66", "pytest>=8.0", "ruff>=0.16.10"]
 
 [[project.authors]]
 name = "牛哥"
@@ -37,3 +37,6 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/funllmchat"]
+
+[tool.ruff]
+target-version = "py310"
